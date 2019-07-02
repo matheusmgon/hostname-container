@@ -17,14 +17,14 @@ Inicilamente vamos criar um container e definir uma porta para o mesmo:
 
 	sudo docker run -dti -v $HOME:/home/shared -p 8080:80 --name=web nginx:latest
   
-  ![](docker-run.png)
+  ![](https://i.screenshot.net/5qmmptj)
 
 Feito o comando a cima, verifique se o mesmo está em execução e se a porta foi corretamente compartilhada:
 
 	
 	sudo docker ps
 
-![](docker-ps.png)
+![](https://i.screenshot.net/83rrgu7)
 
 Agora, vamos para o Apache:
 
@@ -57,7 +57,7 @@ Feito a configuração do vhost, ative-o:
 	Como estamos usando um ambiente de teste, vamos apontar no arquivo hosts o domínio "web.local para nossa maquina"
 
 Agora vamos ver se funcionou...
-![](file://home/matheus/Videos/mod-proxy-apache-docker.gif)
+![](https://media.giphy.com/media/LmeqKc5ReYL9RfPILw/giphy.gif)
 
 
 
