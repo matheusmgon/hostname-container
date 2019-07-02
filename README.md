@@ -57,7 +57,7 @@ Feito a configuração do vhost, ative-o:
 	Como estamos usando um ambiente de teste, vamos apontar no arquivo hosts o domínio "web.local para nossa maquina"
 
 Agora vamos ver se funcionou...
-![](mod-proxy-apache-docker.gif)
+![](file://home/matheus/Videos/mod-proxy-apache-docker.gif)
 
 
 
