@@ -57,6 +57,8 @@ Feito a configuração do vhost, ative-o:
 	Como estamos usando um ambiente de teste, vamos apontar no arquivo hosts o domínio "web.local para nossa maquina"
 
 Agora vamos ver se funcionou...
+
+
 ![](https://media.giphy.com/media/LmeqKc5ReYL9RfPILw/giphy.gif)
 
 
